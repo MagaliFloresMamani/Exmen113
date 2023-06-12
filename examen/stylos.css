@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ 
+ .banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    #menuhorizontal {
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        } #menuhorizontal a { width:100px;
+        text-decoration:none;
+        text-align:center;
+        color:#eeebed;
+        padding:3px 5px;
+        border-right:1px solid blue;
+        display:block; }
+        #menuhorizontal li {
+        float:right;
+        }
+        
+        #menuhorizontal a:hover {
+        background-color:#336699;
+        }
+
+    
+ }
+ .cuerpo{background-image: url("tms.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.par{
+    color:blanchedalmond;
+    margin-right: 50%;
+}
